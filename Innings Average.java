@@ -31,12 +31,12 @@ for(int k:a)
 {
 sum+=k;
 }
-System.out.printf("%.2f",(float)(sum/n));
+System.out.printf("%.2f",(float)sum/n);
 System.out.println();
 for(int j:b)
 {
 sum1+=j;
 }
-System.out.printf("%.2f",(float)(sum1/n));
+System.out.printf("%.2f",(float)sum1/n);
 }
 }
